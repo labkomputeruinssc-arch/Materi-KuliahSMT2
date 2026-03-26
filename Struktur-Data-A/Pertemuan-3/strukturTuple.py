@@ -1,13 +1,14 @@
 import sys
+import streamlit as st
 # Membuat Struktur Tuple
 logApps = ("User1 Login")
 print (logApps)
-print ("Memiliki ukuran Tuple", sys.getsizeof(logApps)) 
-
-# Membuktikan Memory Tuple lebih efisien dari List
+st.write ("Memiliki ukuran Tuple", sys.getsizeof(logApps)) 
+# Membuktikan Tuple lebih efisien dari List
+st.title("Membuktikan Memory Tuple lebih efisien dari List")
 logAppsList = ["User1 Login"]
-print (logAppsList)
-print ("Memiliki ukuran List", sys.getsizeof(logAppsList))
+st.write(logAppsList)
+st.write ("Memiliki ukuran List", sys.getsizeof(logAppsList))
 
 # Pembuktian Tuple tidak bisa diubah
 # 1. Tambah
