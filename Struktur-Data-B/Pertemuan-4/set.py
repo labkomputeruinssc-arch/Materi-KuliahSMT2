@@ -43,4 +43,9 @@ print(setA&setB)
 # Difference
 print(setA-setB)
 # Symmetric Difference
-print(setA^setB)
+print(setA^setB) 
+
+setUnion = setA.union(setB)
+print(setUnion)
+
+
